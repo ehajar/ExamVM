@@ -1,4 +1,4 @@
-const vmRouter = require("routes/VMRouter");
+const vmRouter = require("routes/vmRouter");
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
