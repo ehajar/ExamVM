@@ -1,9 +1,9 @@
-const vmRouter = require("routes/vmRouter");
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 const path = require("path");
+const vmRouter = require("./routes/vmRouter");
 
 mongoose.connect(
   "mongodb+srv://ehajar:ehajar@cluster0.wmtk1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
